@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "nodemon": "^3.1.10",
+    "prompt-sync": "^4.2.0"
+  },
+  "scripts": {
+    "start": "node Dsa_pattern_part4.js",
+    "dev": "node Dsa_pattern_part4.js"
+  }
+}
