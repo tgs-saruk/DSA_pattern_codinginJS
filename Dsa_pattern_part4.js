@@ -36,3 +36,24 @@ for (let i = 1; i <= n; i++){
     }
     console.log();
 }
+
+console.log("\nPattern 5: stars * in right angle triangle in reverse order");
+for (let i = 1; i <= n; i++){
+    for (let j = n; j >= i; j--){
+       process.stdout.write("*");
+    }
+    console.log();
+}
+
+console.log("\nPattern 6: stars in left angle triangle in reverse order");
+
+for (let i = 1; i <= n; i++){
+    for (let j = 1; j <= n; j++){
+        if (j <= n - i){
+            process.stdout.write("");
+        } else {
+            process.stdout.write("*");
+        }
+    }
+    console.log();
+}
